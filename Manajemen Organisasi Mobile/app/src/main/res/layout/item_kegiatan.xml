@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/item_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="4dp"
+    android:gravity="center"
+    android:background="@android:color/transparent"
+    android:orientation="horizontal">
+
+    <View
+        android:layout_margin="8dp"
+        android:background="@color/red_900"
+        android:id="@+id/view_warna_kegiatan"
+        android:layout_width="36dp"
+        android:layout_height="18dp"/>
+
+    <TextView
+        android:padding="4dp"
+        android:id="@+id/tv_item_judul_kegiatan"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="6"
+        android:textSize="18sp"
+        android:text="Lomba Puisi" />
+</LinearLayout>

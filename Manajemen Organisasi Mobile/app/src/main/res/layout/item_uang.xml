@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_uang_no"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/tv_uang_keterangan"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Keterangan" />
+
+    <TextView
+        android:id="@+id/tv_uang_jumlah"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Jumlah Uang" />
+
+    <TextView
+        android:id="@+id/tv_uang_timestamp"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Tanggal dan Waktu" />
+
+    <TextView
+        android:id="@+id/tv_uang_hapus"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Aksi" />
+</LinearLayout>

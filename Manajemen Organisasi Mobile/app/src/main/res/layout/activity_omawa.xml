@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:background="@color/amber_100"
+            android:gravity="center"
+            android:text="Pengertian Organisasi Mahasiswa"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+
+        <TextView
+            android:id="@+id/tv_data_tidak_tersedia"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Data Tidak Tersedia"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+        <com.facebook.shimmer.ShimmerFrameLayout
+            android:id="@+id/shimmer_layout_organisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/tv_organisasi_pengertian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:id="@+id/view1"
+                    android:background="#ddd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/tv_organisasi_pengertian"
+                    android:layout_alignTop="@+id/tv_organisasi_pengertian"
+                    android:layout_alignEnd="@+id/tv_organisasi_pengertian"
+                    android:layout_alignBottom="@+id/tv_organisasi_pengertian" />
+
+                <TextView
+                    android:layout_below="@id/tv_organisasi_pengertian"
+                    android:id="@+id/tv_organisasi_tanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"
+                    android:textStyle="bold"/>
+
+                <View
+                    android:id="@+id/view2"
+                    android:background="#ddd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/tv_organisasi_tanggal"
+                    android:layout_alignTop="@+id/tv_organisasi_tanggal"
+                    android:layout_alignEnd="@+id/tv_organisasi_tanggal"
+                    android:layout_alignBottom="@+id/tv_organisasi_tanggal" />
+
+                <ImageView
+                    android:layout_margin="16dp"
+                    android:layout_below="@id/tv_organisasi_tanggal"
+                    android:id="@+id/iv_organisasi_gambar"
+                    android:layout_width="match_parent"
+                    android:layout_height="200dp"/>
+
+                <View
+                    android:id="@+id/view3"
+                    android:background="#ddd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/iv_organisasi_gambar"
+                    android:layout_alignTop="@+id/iv_organisasi_gambar"
+                    android:layout_alignEnd="@+id/iv_organisasi_gambar"
+                    android:layout_alignBottom="@+id/iv_organisasi_gambar" />
+
+                <TextView
+                    android:layout_below="@id/iv_organisasi_gambar"
+                    android:id="@+id/tv_organisasi_deskripsi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="16dp"
+                    android:layout_marginTop="20dp"
+                    android:textSize="20sp"/>
+
+                <View
+                    android:id="@+id/view4"
+                    android:background="#ddd"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignStart="@+id/tv_organisasi_deskripsi"
+                    android:layout_alignTop="@+id/tv_organisasi_deskripsi"
+                    android:layout_alignEnd="@+id/tv_organisasi_deskripsi"
+                    android:layout_alignBottom="@+id/tv_organisasi_deskripsi" />
+            </RelativeLayout>
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </LinearLayout>
+</ScrollView>

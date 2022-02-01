@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="16dp"
+            android:text="MINAT DAN BAKAT MAHASISWA FAKULTAS TEKNIK UNIVERSITAS ISLAM MALANG"
+            android:textSize="22sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:text="Minat bakat mahasiswa Fakultas Teknik Unisma ini ditujukan untuk Mahasiswa sebagai salah satu tolak ukur minat bakat mahasiswa Fakultas Teknik sebagai penunjang kreativitas mahasiswa Fakultas Tekik Unisma" />
+
+        <EditText
+            android:id="@+id/et_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:ems="10"
+            android:hint="Nama"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/sp_jurusan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:entries="@array/jurusan"
+            android:padding="8dp">
+        </Spinner>
+
+        <EditText
+            android:id="@+id/et_nim"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:ems="10"
+            android:hint="Nomor Induk Mahasiswa (NIM)"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Kesenian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/sp_kesenian"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:entries="@array/kesenian"
+            android:padding="8dp">
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/et_kesenian_lainnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:ems="10"
+            android:hint="Kesenian"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Olahraga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/sp_olahraga"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:entries="@array/olahraga"
+            android:padding="8dp">
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/et_olahraga_lainnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:ems="10"
+            android:hint="Olahraga"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:visibility="gone" />
+
+        <TextView
+            android:textStyle="bold"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:text="Keteknikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <Spinner
+            android:id="@+id/sp_keteknikan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:entries="@array/keteknikan"
+            android:padding="8dp">
+
+        </Spinner>
+
+        <EditText
+            android:id="@+id/et_keteknikan_lainnya"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:ems="10"
+            android:hint="Keteknikan"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/et_alasan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:ems="10"
+            android:hint="Alasan memilih minat bakat"
+            android:inputType="textPersonName"
+            android:padding="8dp" />
+
+        <Button
+            android:id="@+id/btn_kirim_minat_bakat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="kirim"
+            android:text="Kirim"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:paddingBottom="30dp" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp" />
+
+ <LinearLayout
+     android:gravity="center"
+     android:layout_alignParentBottom="true"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:orientation="vertical">
+     <TextView
+         android:textStyle="bold"
+         android:gravity="center"
+         android:textSize="25dp"
+         android:text="Selamat Datang "
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content">
+     </TextView>
+     <TextView
+         android:gravity="center"
+         android:textStyle="bold"
+         android:textSize="20dp"
+         android:text="Silahkan Login "
+         android:layout_width="match_parent"
+         android:layout_height="34dp">
+     </TextView>
+     <ImageView
+         android:layout_marginTop="15dp"
+         android:layout_gravity="center"
+         android:src="@drawable/person"
+         android:layout_width="70dp"
+         android:layout_height="70dp">
+     </ImageView>
+
+     <EditText
+         android:id="@+id/et_username"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:hint="Name"
+         android:singleLine="true"
+         android:textColor="#000000" />
+
+     <EditText
+         android:id="@+id/et_password"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginTop="10dp"
+         android:hint="Password"
+         android:inputType="textPassword"
+         android:singleLine="true"
+         android:textColor="#000000" />
+     <Button
+         android:onClick="admin"
+         android:layout_marginTop="10dp"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Masuk ADMIN"
+         android:textColor="#FFFFFF"
+         android:background="@color/colorPrimary"
+         android:id="@+id/button_admin"
+         tools:ignore="OnClick" />
+     <Button
+         android:onClick="bukan_admin"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Saya Bukan ADMIN"
+         android:textColor="#FFFFFF"
+         android:background="@color/colorPrimary"
+         android:id="@+id/bukan_admin"
+         android:layout_marginTop="10dp"
+         tools:ignore="OnClick" />
+
+ </LinearLayout>
+</RelativeLayout>

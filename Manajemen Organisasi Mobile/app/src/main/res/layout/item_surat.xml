@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/tv_surat_no"
+        android:layout_width="32dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="No" />
+
+    <TextView
+        android:id="@+id/tv_surat_judul"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Judul Surat" />
+
+    <TextView
+        android:id="@+id/tv_surat_nomor"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Nomor Surat" />
+
+    <TextView
+        android:id="@+id/tv_surat_waktu"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Tanggal dan Waktu" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tv_surat_download"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Download File Surat" />
+
+    <TextView
+        android:textAlignment="center"
+        android:id="@+id/tv_surat_hapus"
+        android:layout_width="180dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/bg_border_cell"
+        android:padding="4dp"
+        android:text="Aksi" />
+
+</LinearLayout>

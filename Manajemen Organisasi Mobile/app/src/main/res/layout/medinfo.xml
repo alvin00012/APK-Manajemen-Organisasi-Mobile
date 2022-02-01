@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Manajemen Divisi Media Dan Informasi\nSilahkan isi Dan Upload Data"
+            android:textSize="18sp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:text="Isi Pengertian Organisasi"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_pengertian_organisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/bg_bigedittext"
+            android:gravity="start|top"
+            android:hint="Pengertian"
+            android:maxLines="2"
+            android:minLines="2"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/et_deskripsi_organisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_bigedittext"
+            android:gravity="start|top"
+            android:hint="Deskripsi"
+            android:maxLines="5"
+            android:minLines="5"
+            android:padding="8dp"/>
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_preview_organisasi"
+                android:layout_centerInParent="true"
+                android:layout_margin="16dp"
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:src="@drawable/ic_baseline_image_360" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah_gambar_organisasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent"
+                android:onClick="tambahGambarOrg"
+                android:padding="32dp"
+                android:src="@drawable/ic_baseline_add_circle"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/btn_pratinjau2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="pratinjau2"
+            android:text="Pratinjau"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_upload_organisasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="uploadOrganisasi"
+            android:text="Upload"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="32dp"
+            android:text="Berita Kegiatan Organisasi"
+            android:textColor="#000000"
+            android:textStyle="bold"/>
+
+        <EditText
+            android:id="@+id/et_judul_berita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_bigedittext"
+            android:gravity="start|top"
+            android:hint="Judul"
+            android:maxLines="2"
+            android:minLines="2"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/et_subjudul_berita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_bigedittext"
+            android:gravity="start|top"
+            android:hint="Sub Judul"
+            android:maxLines="2"
+            android:minLines="2"
+            android:padding="8dp"/>
+
+        <EditText
+            android:id="@+id/et_isi_berita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_bigedittext"
+            android:gravity="start|top"
+            android:hint="Berita"
+            android:maxLines="5"
+            android:minLines="5"
+            android:padding="8dp"/>
+
+        <RelativeLayout
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/iv_preview"
+                android:layout_centerInParent="true"
+                android:layout_margin="16dp"
+                android:layout_width="360dp"
+                android:layout_height="360dp"
+                android:src="@drawable/ic_baseline_image_360" />
+
+            <ImageButton
+                android:id="@+id/btn_tambah_gambar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentBottom="true"
+                android:background="@android:color/transparent"
+                android:onClick="tambahGambar"
+                android:padding="32dp"
+                android:src="@drawable/ic_baseline_add_circle"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </RelativeLayout>
+
+        <EditText
+            android:id="@+id/et_caption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/bg_bigedittext"
+            android:gravity="start|top"
+            android:hint="Caption"
+            android:maxLines="2"
+            android:minLines="2"
+            android:padding="8dp"/>
+
+        <Button
+            android:id="@+id/btn_pratinjau"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="pratinjau"
+            android:text="Pratinjau"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_upload_berita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="16dp"
+            android:background="@color/colorPrimary"
+            android:onClick="uploadBerita"
+            android:text="Upload"
+            android:textColor="#FFFFFF"
+            android:textStyle="bold" />
+    </LinearLayout>
+</ScrollView>

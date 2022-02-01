@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892745027354",
+    "firebase_url": "https://manajemenorganisasi-c9756-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "manajemenorganisasi-c9756",
+    "storage_bucket": "manajemenorganisasi-c9756.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892745027354:android:55a637d539c1410e96e6a3",
+        "android_client_info": {
+          "package_name": "com.app.manajemenorganisasi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892745027354-dg47cg82pnpcshd9h6g3rv9v3a8ut5fv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.manajemenorganisasi",
+            "certificate_hash": "fe22c6a68d79ba42567419301da55a30c3a9681d"
+          }
+        },
+        {
+          "client_id": "892745027354-qhrcdbg4mrua8ft2dbki4fbrg1pt5m45.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-_Y6CIpZFo9yi5sbLz_SqNYH45jDYly4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892745027354-qhrcdbg4mrua8ft2dbki4fbrg1pt5m45.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

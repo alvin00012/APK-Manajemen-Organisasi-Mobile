@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Manajemen Kerumahtanggaan"
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Silahkan isi Dan Upload Data "
+        android:textSize="20sp"
+        android:textStyle="bold"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Data Barang Masuk"
+                android:textColor="#000000"
+                android:textStyle="bold">
+
+            </TextView>
+
+            <EditText
+                android:id="@+id/et_nama_barang1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_bigedittext"
+                android:gravity="top"
+                android:hint="Nama Barang"
+                android:maxLines="2"
+                android:minLines="2"
+                android:padding="8dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_keterangan_barang1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_bigedittext"
+                android:gravity="top"
+                android:minLines="3"
+                android:maxLines="3"
+                android:hint="Keterangan"
+                android:padding="8dp">
+            </EditText>
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_preview_barang1"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="16dp"
+                    android:layout_width="360dp"
+                    android:layout_height="360dp"
+                    android:src="@drawable/ic_baseline_image_360" />
+
+                <ImageButton
+                    android:id="@+id/btn_tambah_gambar_barang1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:onClick="tambahGambarBarang1"
+                    android:padding="32dp"
+                    android:src="@drawable/ic_baseline_add_circle"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_upload_organisasi"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:onClick="uploadBarang1"
+                android:text="Upload"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Data Barang Keluar"
+                android:textColor="#000000"
+                android:textStyle="bold">
+
+            </TextView>
+
+
+            <EditText
+                android:id="@+id/et_nama_barang2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_bigedittext"
+                android:gravity="top"
+                android:hint="Nama Barang"
+                android:maxLines="2"
+                android:minLines="2"
+                android:padding="8dp">
+
+            </EditText>
+
+            <EditText
+                android:id="@+id/et_keterangan_barang2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:background="@drawable/bg_bigedittext"
+                android:gravity="top"
+                android:minLines="3"
+                android:maxLines="3"
+                android:hint="Keterangan"
+                android:padding="8dp">
+            </EditText>
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_preview_barang2"
+                    android:layout_centerInParent="true"
+                    android:layout_margin="16dp"
+                    android:layout_width="360dp"
+                    android:layout_height="360dp"
+                    android:src="@drawable/ic_baseline_image_360" />
+
+                <ImageButton
+                    android:id="@+id/btn_tambah_gambar_barang2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentBottom="true"
+                    android:background="@android:color/transparent"
+                    android:onClick="tambahGambarBarang2"
+                    android:padding="32dp"
+                    android:src="@drawable/ic_baseline_add_circle"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold" />
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/btn_upload_berita"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_margin="16dp"
+                android:background="@color/colorPrimary"
+                android:onClick="uploadBarang2"
+                android:text="Upload"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="@color/colorPrimary"
+                android:onClick="lihatBarang"
+                android:text="Lihat Data Barang"
+                android:textColor="#FFFFFF"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</LinearLayout>

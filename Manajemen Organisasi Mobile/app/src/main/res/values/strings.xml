@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">Manajemen Organisasi</string>
+    <string name="title_data_mahasiswa">Data Mahasiswa Fakultas Teknik Universitas Islam Malang</string>
+    <string name="title_data_minat_bakat_mahasiswa">Data Minat Bakat Mahasiswa Fakultas Teknik Universitas Islam Malang</string>
+    <string name="download_pdf">Download PDF</string>
+    <string-array name="daftar_organisasi">
+        <item>DPM-FT UNISMA</item>
+        <item>BEM-FT UNISMA</item>
+        <item>HMS-FT UNISMA</item>
+        <item>HMM-FT UNISMA</item>
+        <item>HME-FT UNISMA</item>
+    </string-array>
+
+    <string-array name="kesenian">
+        <item>Tari</item>
+        <item>Musik</item>
+        <item>Teater</item>
+        <item>Wayang</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="olahraga">
+        <item>Sepak Bola</item>
+        <item>Futsal</item>
+        <item>Voly</item>
+        <item>Badminton</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="keteknikan">
+        <item>Robotika</item>
+        <item>Instalasi Listrik</item>
+        <item>Programming</item>
+        <item>Mechanical</item>
+        <item>Struktur Beton</item>
+        <item>Lainnya</item>
+    </string-array>
+
+    <string-array name="jurusan">
+        <item>Teknik Sipil</item>
+        <item>Teknik Mesin</item>
+        <item>Teknik Elektro</item>
+    </string-array>
+</resources>
